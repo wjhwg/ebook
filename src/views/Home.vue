@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <div id="read"></div>
+    <div class="icon-block"></div>
   </div>
 </template>
 
