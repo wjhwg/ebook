@@ -10,8 +10,8 @@
 <script>
 export default {
   mounted() {
-    this.$store.dispatch('setTest', 10).then(() => {
-      console.log(this.$store.state.test)
+    this.$store.dispatch('setTest', 101).then(() => {
+      console.log(this.$store.state.book.test)
     })
   },
 }
