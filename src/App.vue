@@ -9,11 +9,6 @@
 
 <script>
 export default {
-  mounted() {
-    this.$store.dispatch('setTest', 101).then(() => {
-      console.log(this.$store.state.book.test)
-    })
-  },
 }
 document.addEventListener('DOMContentLoaded',() => {
   const html = document.querySelector('html')
@@ -23,10 +18,9 @@ document.addEventListener('DOMContentLoaded',() => {
 })
 </script>
 <style>
-.font{
-  font-family: 'Days One';
-  font-size: 1rem;
-  color: aqua;
-
+#app{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 </style>
