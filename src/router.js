@@ -11,7 +11,7 @@ export default new Router({
     },
     {
       path: '/ebook',
-      component: () => import('./views/ebook') ,
+      component: () => import('./views/ebook'),
       children: [
         {
           path: ':fileName',

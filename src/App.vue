@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="font">
-      hello world
+      <!-- hello world -->
     </div>
     <router-view/>
   </div>
